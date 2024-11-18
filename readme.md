@@ -8,7 +8,7 @@
 2. Install QMK (`pacman -S qmk`)
 3. `qmk setup`
 4. Find your keyboard with `qmk list-keyboards`
-5. `qmk config user.keyboard=<keyboard path from above command>. Example:
+5. `qmk config user.keyboard=<keyboard path from above command>`. Example:
    `qmk config user.keyboard=keebio/iris_ce/rev1`
 6. Choose default keymap name: `qmk config user.keymap=tturna`
 7. Compile my keymap: `qmk compile -km tturna`
