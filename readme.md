@@ -13,8 +13,10 @@
 6. Choose default keymap name: `qmk config user.keymap=tturna`
 7. Compile my keymap: `qmk compile -km tturna`
 8. Put keyboard in bootloader mode. [Iris CE Info](https://github.com/Tturna/qmk_firmware/blob/master/keyboards/keebio/iris_ce/readme.md#bootloader), [General Info](https://docs.qmk.fm/newbs_flashing#put-your-keyboard-into-dfu-bootloader-mode) 
-8. Flash default keymap: `qmk flash` or follow [this](https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line)
-   *Note: This didn't work on my Linux system. My keyboard uses the rp2040 controller so I was able to get around it by just enabling bootloader mode, which made the keyboard show up in my file manager and then copying the compiled firmware onto the kb.*
+8. Flash default keymap: `qmk flash`* or follow [this](https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line)
+
+
+\**Note: This didn't work on my Linux system. My keyboard uses the rp2040 controller so I was able to get around it by just enabling bootloader mode, which made the keyboard show up in my file manager and then copying the compiled firmware onto the kb.*
 
 ### Useful links
 [General QMK info](https://docs.qmk.fm/)<br>
